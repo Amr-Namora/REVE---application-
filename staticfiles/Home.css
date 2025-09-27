@@ -1,0 +1,1471 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Cairo', sans-serif;
+    cursor: context-menu;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/NotoKufiArabic/NotoKufiArabic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'MyFontBold';
+    src: url('fonts/NotoKufiArabic/NotoKufiArabic-Bold.ttf') format('truetype');
+}
+
+body {
+
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    width: 100%;
+    height: auto;
+    margin: 0;
+
+
+}
+a {
+    text-decoration: none;
+}
+
+
+.top_bar_container {
+    width: 100%;
+    height: 900px;
+    background-image: url('Photos/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+
+.top_bar_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logoimg {
+    width: 150px;
+    height: auto;
+}
+
+.taps_container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row-reverse;
+}
+
+.taps {
+    padding: 10px;
+    color: #000000;
+    font-family: 'MyFont';
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.taps:hover {
+    cursor: pointer;
+    font-size: 25px;
+    color: #4D4FFF;
+
+}
+
+
+.top_bar_content2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-direction: row-reverse;
+}
+
+.title {
+    text-align: right;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+p {
+    text-align: right;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    max-width: 500px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.LogINPage {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.LogINPage1 {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.LogINPageSpecial {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 80px;
+
+}
+
+.textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 45%;
+    border: none;
+}
+
+.td1 {
+    border-bottom: 1px solid #4D4FFF;
+
+}
+
+.td2 {
+    border-left: 1px solid #4D4FFF;
+}
+
+figure {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+
+}
+
+.figureIcon {
+    width: 50px;
+}
+
+.tdTitle {
+    font-size: 22px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    padding-bottom: 10px;
+}
+
+.tdDescription {
+    font-size: 15px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+}
+
+.AboutUsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    height: auto;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.AboutUsTitle {
+    font-size: 30px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    background-color: #4D4FFF;
+    height: 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.AboutUsText {
+    max-width: 500px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.AboutUsInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.About{
+    justify-content: flex-start;
+}
+
+.About_title {
+    font-size: 18px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    font-weight: bold;
+}
+
+.About_text {
+    font-size: 15px;
+    max-width: 300px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+}
+
+.info_icon {
+    padding-top: 10px;
+}
+
+.info_icon_img {
+    width: 70px;
+}
+
+.SpecialContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.SpecialTitle {
+    font-size: 30px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.SpecialText {
+    max-width: 500px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.SpicialInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.info_icon2 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.info_icon_img2 {
+    width: 70px;
+    padding-left: 10px;
+}
+
+.ScreenShotsContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    height: auto;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.ScreenShotsTitle {
+    font-size: 30px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line2 {
+    width: 300px;
+    background-color: #4D4FFF;
+    height: 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.ScreenShotsText {
+    max-width: 500px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ScreenShotsInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.OurTeamContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.OurTeamTitle {
+    font-size: 30px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.OurTeamText {
+    max-width: 500px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.OurTeamInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card {
+    width: 250px;
+    border: 2px solid #4D4FFF;
+    margin: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 300px;
+
+}
+
+.OurTeamPhotos {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.jop {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.background-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.background-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Photos/4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.DownloadContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.DownloadTitle {
+    font-size: 30px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(0px);
+}
+
+.DownloadText {
+    max-width: 500px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.DownloadInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card1 {
+    width: 230px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid #000000;
+    margin: 10px;
+    border-radius: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: auto;
+    transition: all 0.3s ease;
+
+
+}
+
+.card1:hover {
+    cursor: pointer;
+    border: 2px solid #4D4FFF;
+    z-index: 3;
+
+
+}
+
+
+.name1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.jop1 {
+    font-size: 18px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+.DownloadIcon {
+    width: 70px;
+}
+
+
+.DownloadIcon1 {
+    width: 70px;
+    border-radius: 10px;
+}
+
+
+.ContactUSContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    height: auto;
+    width: 100%;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.ContactUSTitle {
+    font-size: 30px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    background-color: #4D4FFF;
+    height: 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.ContactUSText {
+    max-width: 500px;
+    font-family: 'MyFont', 'Cairo', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ContactUSInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.phone_num {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.PhonIcon {
+    width: 40px;
+
+}
+
+.number {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+
+.Footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+    padding-right: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 80px;
+}
+
+.Footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Photos/Footer.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(6px);
+    z-index: -1;
+}
+
+.FooterTitle {
+    font-size: 30px;
+    font-family: 'MyFontBold', 'Cairo', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line {
+    width: 100px;
+    background-color: #4D4FFF;
+    height: 3px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.FooterInfo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.facebook {
+    width: 70px;
+    transition: all 0.3s ease;
+}
+
+.facebook:hover {
+    cursor: pointer;
+    width: 100px;
+}
+
+.CopyRirhting {
+    font-size: 20px;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #4D4FFF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* إخفاء الزر افتراضيًا */
+    transition: opacity 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: #3333FF;
+}
+
+
+@media (max-width: 1350px) {
+    .taps {
+        padding: 8px;
+        font-size: 18px;
+    }
+    .taps:hover {
+        cursor: pointer;
+        color: #4D4FFF;
+        font-size: 22px;
+
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    p {
+        max-width: 500px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .top_bar_container {
+        height: 700px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .taps {
+        padding: 5px;
+        font-size: 15px;
+    }
+    .taps:hover {
+        cursor: pointer;
+        color: #4D4FFF;
+        font-size: 18px;
+
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    p {
+        max-width: 450px;
+        font-size: 16px;
+    }
+
+    .logoimg {
+        width: 130px;
+        height: auto;
+    }
+
+    .LogINPage {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .LogINPage1 {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .LogINPageSpecial {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .features {
+        margin-top: 50px;
+    }
+
+    figure {
+        width: 180px;
+    }
+
+    .figureIcon {
+        width: 40px;
+    }
+
+
+    .tdDescription {
+        font-size: 13px;
+    }
+
+    .AboutUsContainer,
+    .SpecialContainer,
+    .ScreenShotsContainer,
+    .OurTeamContainer,
+    .DownloadContainer,
+    .ContactUSContainer,
+    .Footer {
+
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 50px;
+    }
+
+    .AboutUsTitle,
+    .SpecialTitle,
+    .ScreenShotsTitle,
+    .OurTeamTitle,
+    .DownloadTitle,
+    .ContactUSTitle,
+    .FooterTitle {
+        font-size: 25px;
+        padding-bottom: 5px;
+    }
+
+    .AboutUsText,
+    .SpecialText,
+    .ScreenShotsText,
+    .OurTeamText,
+    .DownloadText,
+    .ContactUSText,
+    .CopyRirhting {
+        max-width: 450px;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .info_icon_img {
+        width: 50px;
+    }
+
+    .DownloadIcon,
+    .DownloadIcon1 {
+        width: 60px;
+    }
+
+    .PhonIcon {
+        width: 40px;
+    }
+
+    .facebook {
+        width: 60px;
+    }
+
+    .tdTitle,
+    .About_title,
+    .name,
+    .name1 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .jop {
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jop1 {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .card {
+        width: 200px;
+        margin: 10px;
+        margin: 10px;
+        height: 250px;
+
+    }
+
+    .OurTeamPhotos {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .card1 {
+        width: 200px;
+        margin: 10px;
+        border-radius: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .top_bar_container {
+        height: 700px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+
+    .taps {
+        padding: 5px;
+        font-size: 14px;
+    }
+    .taps:hover {
+        cursor: pointer;
+        color: #4D4FFF;
+        font-size: 17px;
+
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    p {
+        max-width: 450px;
+        font-size: 16px;
+    }
+
+    .logoimg {
+        width: 120px;
+        height: auto;
+    }
+
+    .LogINPage {
+        width: 190px;
+        border-radius: 15px;
+    }
+
+    .LogINPage1 {
+        width: 190px;
+        border-radius: 15px;
+    }
+
+    .LogINPageSpecial {
+        width: 190px;
+        border-radius: 15px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .top_bar_container {
+        height: 700px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+
+    .taps {
+        padding: 5px;
+        font-size: 12px;
+    }
+    .taps:hover {
+        cursor: pointer;
+        color: #4D4FFF;
+        font-size: 13px;
+
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    p {
+        max-width: 450px;
+        font-size: 14px;
+    }
+
+    .logoimg {
+        width: 110px;
+        height: auto;
+    }
+
+    .LogINPage1 {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .LogINPage {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .LogINPageSpecial {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .features {
+        margin-top: 20px;
+    }
+
+    figure {
+        width: 160px;
+    }
+
+    .figureIcon {
+        width: 40px;
+    }
+
+
+    .tdDescription {
+        font-size: 12px;
+    }
+
+    .AboutUsContainer,
+    .SpecialContainer,
+    .ScreenShotsContainer,
+    .OurTeamContainer,
+    .DownloadContainer,
+    .ContactUSContainer,
+    .Footer {
+
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 40px;
+    }
+
+    .AboutUsTitle,
+    .SpecialTitle,
+    .ScreenShotsTitle,
+    .OurTeamTitle,
+    .DownloadTitle,
+    .ContactUSTitle,
+    .FooterTitle {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    .AboutUsText,
+    .SpecialText,
+    .ScreenShotsText,
+    .OurTeamText,
+    .DownloadText,
+    .ContactUSText,
+    .CopyRirhting {
+        max-width: 400px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .About_text {
+        font-size: 13px;
+    }
+
+    .info_icon_img {
+        width: 40px;
+    }
+
+    .DownloadIcon,
+    .DownloadIcon1 {
+        width: 50px;
+    }
+
+    .PhonIcon {
+        width: 40px;
+    }
+
+    .facebook {
+        width: 60px;
+    }
+
+    .tdTitle,
+    .About_title,
+    .name,
+    .name1 {
+        font-size: 16px;
+        padding-bottom: 1px;
+    }
+
+    .jop {
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jop1 {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .card {
+        width: 200px;
+        margin: 10px;
+        margin: 10px;
+        height: 250px;
+
+    }
+
+    .OurTeamPhotos {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .card1 {
+        width: 180px;
+        margin: 10px;
+        border-radius: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top_bar_container {
+        width: 100%;
+        height: 550px;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+
+    .taps {
+        padding: 3px;
+        font-size: 10px;
+    }
+
+    .taps:hover {
+        cursor: pointer;
+        color: #4D4FFF;
+        font-size: 11px;
+
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    p {
+        max-width: 400px;
+        font-size: 12px;
+    }
+
+    .logoimg {
+        width: 90px;
+        height: auto;
+    }
+
+    .LogINPage1 {
+        width: 150px;
+        border-radius: 15px;
+    }
+
+    .LogINPageSpecial {
+        display: none;
+    }
+
+    .LogINPage {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .features {
+        margin-top: 15px;
+    }
+
+    figure {
+        width: 150px;
+    }
+
+    .figureIcon {
+        width: 40px;
+    }
+
+
+    .tdDescription {
+        font-size: 12px;
+    }
+
+    .AboutUsContainer,
+    .SpecialContainer,
+    .ScreenShotsContainer,
+    .OurTeamContainer,
+    .DownloadContainer,
+    .ContactUSContainer,
+    .Footer {
+
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 40px;
+    }
+
+    .AboutUsTitle,
+    .SpecialTitle,
+    .ScreenShotsTitle,
+    .OurTeamTitle,
+    .DownloadTitle,
+    .ContactUSTitle,
+    .FooterTitle {
+        font-size: 22px;
+        padding-bottom: 5px;
+    }
+
+    .AboutUsText,
+    .SpecialText,
+    .ScreenShotsText,
+    .OurTeamText,
+    .DownloadText,
+    .ContactUSText,
+    .CopyRirhting {
+        max-width: 400px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .About_text {
+        font-size: 13px;
+    }
+
+    .info_icon_img {
+        width: 40px;
+    }
+
+    .DownloadIcon,
+    .DownloadIcon1 {
+        width: 50px;
+    }
+
+    .PhonIcon {
+        width: 40px;
+    }
+
+    .facebook {
+        width: 60px;
+    }
+
+    .tdTitle,
+    .About_title,
+    .name,
+    .name1 {
+        font-size: 16px;
+        padding-bottom: 1px;
+    }
+
+    .jop {
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jop1 {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .card {
+        width: 200px;
+        margin: 10px;
+        margin: 10px;
+        height: 250px;
+
+    }
+
+    .OurTeamPhotos {
+        width: 200px;
+        border-radius: 15px;
+    }
+
+    .card1 {
+        width: 180px;
+        margin: 10px;
+        border-radius: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .top_bar_container {
+        width: 100%;
+        height: 450px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .taps {
+        padding: 2px;
+        font-size: 7px;
+    }
+    .taps:hover {
+        cursor: pointer;
+        color: #4D4FFF;
+        font-size: 8px;
+
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    p {
+        max-width: 200px;
+        font-size: 10px;
+    }
+
+    .logoimg {
+        width: 70px;
+        height: auto;
+    }
+
+    .LogINPage1 {
+        width: 110px;
+        border-radius: 15px;
+    }
+
+    .LogINPageSpecial {
+        display: none;
+    }
+
+    .LogINPage {
+        width: 150px;
+        border-radius: 15px;
+    }
+
+    .features {
+        margin-top: 15px;
+    }
+
+    figure {
+        width: 120px;
+        margin: 10px;
+    }
+
+
+    .tdDescription {
+        font-size: 10px;
+    }
+
+    .AboutUsContainer,
+    .SpecialContainer,
+    .ScreenShotsContainer,
+    .OurTeamContainer,
+    .DownloadContainer,
+    .ContactUSContainer,
+    .Footer {
+
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 30px;
+    }
+
+    .AboutUsTitle,
+    .SpecialTitle,
+    .ScreenShotsTitle,
+    .OurTeamTitle,
+    .DownloadTitle,
+    .ContactUSTitle,
+    .FooterTitle {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .AboutUsText,
+    .SpecialText,
+    .ScreenShotsText,
+    .OurTeamText,
+    .DownloadText,
+    .ContactUSText,
+    .CopyRirhting {
+        max-width: 250px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .About_text {
+        font-size: 12px;
+    }
+
+    .info_icon_img {
+        width: 50px;
+    }
+
+    .info_icon_img2 {
+        width: 50px;
+    }
+
+    .DownloadIcon,
+    .DownloadIcon1 {
+        width: 50px;
+    }
+
+    .PhonIcon {
+        width: 30px;
+    }
+
+    .facebook {
+        width: 50px;
+    }
+
+    .tdTitle,
+    .About_title,
+    .name,
+    .name1 {
+        font-size: 13px;
+        padding-bottom: 1px;
+    }
+
+    .jop {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .jop1 {
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .card {
+        width: 140px;
+        margin: 10px;
+        margin: 10px;
+        height: 230px;
+
+    }
+
+    .OurTeamPhotos {
+        width: 140px;
+        border-radius: 15px;
+    }
+
+    .card1 {
+        width: 180px;
+        margin: 10px;
+        border-radius: 15px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .number {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 370) {
+    
+}
