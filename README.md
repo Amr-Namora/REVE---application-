@@ -1,6 +1,6 @@
 # REVE - Real Estate Mobile App Backend API
 
-This repository contains the backend API for **REVE**, the mobile application component of our multi-platform real estate rental service. While the web platform (**AVAR**) uses Django's built-in templaning, this project is a dedicated **Django REST Framework (DRF)** API that exclusively serves data to the REVE mobile app.
+This repository contains the backend API for **REVE**, the mobile application component of our multi-platform real estate rental service. While the web platform (**AVAR**) uses Django's built-in templating, this project is a dedicated **Django REST Framework (DRF)** API that exclusively serves data to the REVE mobile app.
 
 ## Project Architecture
 
@@ -46,6 +46,7 @@ As the lead backend developer, I architected a **decoupled, service-oriented bac
 This API works in conjunction with:
 - **[AVAR](https://github.com/Amr-Namora/AVAR---website)** - The full-stack web platform for the same real estate service
 - **REVE Mobile App** - The frontend mobile application consuming this API
+  - **[Download REVE App](https://www.mediafire.com/file/vkwpdkplh6u5gdz/REVE.apk/file)** - Install the mobile application
 
 ## Setup & Installation
 
